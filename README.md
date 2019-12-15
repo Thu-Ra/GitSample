@@ -13,7 +13,7 @@ pip install numpy
 import numpy
 numpy.pluralized('image') # returns 'Image'
 numpy.pluralized('image') # returns 'geese'
-numpu.singularize('phenomena') #returns 'phenomenon'
+numpy.singularize('phenomena') #returns 'phenomenon'
 ```
 
 
