@@ -56,4 +56,8 @@ x = tuple(y)
 x
 
 fruits = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
-x[4] = "pineapple"
+>>> x = list(fruits)
+>>> x[4] = "pineapple"
+>>> fruits = tuple(x)
+>>> fruits
+('apple', 'banana', 'cherry', 'orange', 'pineapple', 'melon', 'mango')
