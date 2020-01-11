@@ -72,9 +72,21 @@ sorted(tel)
 'guido' in tel
 
 'sape' not in tel
-
  dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
  dict(sape=4139, guido=4127, jack=4098)
-
+ 
  {x: x**2 for x in (2, 4, 6)}
  {x: x**2 for x in (1, 2, 3, 4, 5)}
+
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+	print(k, v)for 
+
+for i, v in enumerate(['tic', 'tac', 'toe']):
+	prin(i, v)
+
+questions = ['name', 'quest', 'favorite color']
+answer = ['lancelot', 'the holy grall', 'blue']
+for q, a in zip(questions, answer):	
+	print('What is your {0}? It is {1}.'.format(q, a))
